@@ -11,12 +11,12 @@
     tools:context="app.ActivityMain">
 
     <TextView
-        android:text="content"
+        android:text=""
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/content"
+        android:id="@+id/heading"
         android:textSize="18sp"
         android:textStyle="normal|bold"
         android:textAlignment="center" />

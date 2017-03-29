@@ -10,6 +10,6 @@ class ActivityMain : Activity()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        content.text = "Android_App"
+        heading.text = "AndroidApp"
     }
 }
