@@ -1,4 +1,4 @@
-package sqlite
+package app
 
 import android.app.Application
 

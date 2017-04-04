@@ -6,7 +6,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "AndroidApp.app"
+        applicationId "AndroidApp.App"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
@@ -30,9 +30,9 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile "com.android.support:appcompat-v7:$support_version"
+    compile "com.android.support:design:$support_version"
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     compile "org.jetbrains.anko:anko-common:$anko_version"
-    compile 'com.android.support:design:25.1.0'
     testCompile 'junit:junit:4.12'
 }
 
